@@ -1,0 +1,101 @@
+
+body {
+    /* background-color: rgb(234, 235, 237); */
+    background-color: #EAEBED;
+}
+main {
+    display: inline-block;
+    width: 800px;
+    float: left;
+    margin: 188px calc(50% - 400px);
+}
+.left > img {
+    display: inline-block;
+    margin-left: calc(50% - 245px);
+    width: 190px;
+    height: auto;
+    object-fit: contain;
+    float: left;
+    
+}
+
+.right {
+    display: inline-block;
+    width: 300px;
+    float: left;
+    text-align: center;
+    margin: 40px 0 40px 40px;
+    font-size: 20px;
+}
+
+    .right > h1 {
+        display: inline-block;
+        width: 250px;
+        text-align: center;
+        font-size: 60px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .right > p {
+        display: inline-block;
+        width: 250px;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 35px;
+    }
+    #small {
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .right > a {
+        display: inline-block;
+        background-color: #696F89;
+        color: #fff;
+        padding: 12px 10px 9px 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    #hidden {
+        display: none;
+        margin-left: calc(50% - 100px);
+        width: 190px;
+        height: auto;
+        object-fit: contain;
+        float: left;
+    }
+@media (max-width: 700px) {
+    
+    main {
+        display: inline-block;
+        width: 400px;
+        float: left;
+        margin: 20px calc(50% - 200px);
+    }
+    .left > img {
+        display: none;
+        margin-left: calc(50% - 100px);
+        width: 190px;
+        height: auto;
+        object-fit: contain;
+        float: left;
+    }
+    .right {
+        display: inline-block;
+        width: 300px;
+        float: left;
+        text-align: center;
+        margin: 40px calc(50% - 150px);
+        font-size: 20px;
+    }
+    #hidden {
+        display: inline-block;
+        margin-left: calc(50% - 100px);
+        width: 190px;
+        height: auto;
+        object-fit: contain;
+        float: left;
+    }
+}

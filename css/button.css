@@ -1,0 +1,19 @@
+a {
+    display: inline-block;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 0px;
+    background-color:#0069BA;
+    color: white;
+    /* box-shadow: 0 4px 4px #0008; */
+    
+}
+/* a:hover {
+    box-shadow: 0 4px 8px #000a;
+    cursor: pointer; */
+}
